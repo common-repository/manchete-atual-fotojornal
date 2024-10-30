@@ -1,0 +1,83 @@
+.manchete-fotojornal-widget{text-align:left; width:100%; position:relative; font-size:16px;}
+.manchete-fotojornal-widget .m-title{position:relative; clear:both; overflow:hidden; padding:15px; font-weight:normal;}
+
+.manchete-fotojornal-widget .m-title a{text-decoration:none;}
+.manchete-fotojornal-widget .m-title a:hover{text-decoration:underline;}
+.manchete-fotojornal-widget .m-title .m-embed{position:absolute; top:50%; margin-top:-14px; right:10px; width:34px; height:18px; padding:5px; background:url('http://mancheteatual.com.br/sites/default/files/fotojornal/embed.png') no-repeat center center; background-color:rgba(0,0,0,0.2); cursor:pointer; border-radius:3px;}
+.manchete-fotojornal-widget .m-title .m-embed:hover{background-color:#000}
+
+.manchete-fotojornal-widget ul{padding:0px; margin:0px; list-style:none;}
+
+.manchete-fotojornal-widget .m-embed-body{border-top:1px solid rgba(0,0,0,0.2); display:none; position:absolute; z-index:10; width:100%;}
+
+.manchete-fotojornal-widget .m-nav-img{position:relative;background:rgba(0,0,0,0.2);}
+.manchete-fotojornal-widget .m-images li{display:block; height:60px; width:60px; overflow:hidden; position:relative; margin:0px 5px 5px; overflow:hidden; padding:0px;}
+.manchete-fotojornal-widget .m-images li img{position:relative; width:60px; height:60px; margin:0px;}
+.manchete-fotojornal-widget .m-images li .m-mask{z-index:2; width:44px; height:44px; position:absolute; top:0px; left:0px;}
+.manchete-fotojornal-widget .m-images li:hover .m-mask{border:8px solid rgba(255,255,255,0.05);}
+.manchete-fotojornal-widget .m-images li.sel .m-mask{border:8px solid rgba(255,255,255,0.3);}
+
+.manchete-fotojornal-widget .m-player{position:relative; overflow:hidden; background:rgba(0,0,0,0.2); width:100%;}
+.manchete-fotojornal-widget .m-player .m-pimage{width:100%; height:100%; position:relative;}
+.manchete-fotojornal-widget .m-player .m-pimage img{position:relative; top:0px; left:0px; display:block;}
+
+.manchete-fotojornal-widget .m-footer .m-pcontent{height:100px; overflow:auto; padding:10px 15px; margin-bottom:5px; border-bottom:1px solid rgba(0,0,0,0.2);}
+.manchete-fotojornal-widget.m-portrait .m-footer .m-pcontent{height:80px;}
+.manchete-fotojornal-widget.m-portrait .m-footer .m-pcontent{border-top:1px solid rgba(0,0,0,0.2);}
+.manchete-fotojornal-widget.m-portrait .m-footer .m-pcontent{padding:5px 3px 8px; }
+.manchete-fotojornal-widget .m-footer .m-pcontent .m-ptitle{font-family:Georgia, serif; font-weight:bold;}
+.manchete-fotojornal-widget .m-footer .m-pcontent .m-ptitle a{text-decoration:none;}
+.manchete-fotojornal-widget .m-footer .m-pcontent .m-ptitle a:hover{text-decoration:underline;}
+.manchete-fotojornal-widget .m-footer .m-pcontent .m-psource{font-style:italic;}
+
+.manchete-fotojornal-widget .m-player .m-nav-prev-trigger{cursor:pointer; position:absolute; top:0px; left:0px; height:100%; width:40%; z-index:4;}
+.manchete-fotojornal-widget .m-player .m-nav-next-trigger{cursor:pointer; position:absolute; top:0px; right:0px; height:100%; width:40%; z-index:4;}
+.manchete-fotojornal-widget .m-player .m-nav-prev{position:absolute; top:5%; left:0px; z-index:4;}
+.manchete-fotojornal-widget .m-player .m-nav-next{position:absolute; top:5%; right:0px; z-index:4;}
+
+.manchete-fotojornal-widget .m-nav-titles{position:relative;}
+.manchete-fotojornal-widget.m-landscape .m-nav-titles{background:rgba(0,0,0,0.2);}
+.manchete-fotojornal-widget .m-nav-titles li:hover{background:rgba(255,255,255,0.05)}
+.manchete-fotojornal-widget .m-nav-titles li.sel{background:rgba(255,255,255,0.3)}
+
+.manchete-fotojornal-widget .m-footer{ clear:both; overflow:hidden; padding:5px 5px;}
+.manchete-fotojornal-widget .m-footer img{width:100px; float:right; margin-right:10px;}
+.manchete-fotojornal-widget.noembed .m-footer img{display:none;}
+.manchete-fotojornal-widget.m-portrait .m-footer img{margin-right:3px;}
+
+/*EMBED ONLY*/
+.manchete-fotojornal-widget.noembed .m-footer img{display:none;}
+.manchete-fotojornal-widget.noembed .m-footer .m-pcontent{border-bottom:0px; margin-bottom:0px;}
+/* END */
+
+.m-nav-content{position:relative; overflow:hidden;}
+.m-nav-content ul{position:relative}
+.m-nav-content li{cursor:pointer;}
+
+
+.m-prev{margin:5px auto 5px; background:url('http://mancheteatual.com.br/sites/default/files/fotojornal/up.png');}
+.m-next{margin:5px auto 5px; background:url('http://mancheteatual.com.br/sites/default/files/fotojornal/down.png');}
+.m-button{cursor:pointer; width:28px; height:28px; border-radius:14px; background-color:rgba(0,0,0,0.2);}
+.m-button:hover{background-color:#000}
+.m-button.disabled{cursor:default; opacity:0.2; background-color:rgba(0,0,0,0.2) !important;}
+
+.manchete-fotojornal-widget .m-player .m-nav-prev{display:none; width:60px; height:60px; position:absolute; top:50%; left:3%;}
+.manchete-fotojornal-widget .m-player .m-nav-next{display:none; width:60px; height:60px; position:absolute; top:50%; right:3%;}
+.manchete-fotojornal-widget .m-player .m-prev{margin:-50% 0px 0px!important; width:60px; height:60px; border-radius:30px; background:url('http://mancheteatual.com.br/sites/default/files/fotojornal/left.png') center center no-repeat rgba(0,0,0,0.2);}
+.manchete-fotojornal-widget .m-player .m-next{margin:-50% 0px 0px!important; width:60px; height:60px; border-radius:30px; background:url('http://mancheteatual.com.br/sites/default/files/fotojornal/right.png') center center no-repeat rgba(0,0,0,0.2);}
+.manchete-fotojornal-widget .m-player .m-nav-prev-trigger:hover .m-button{background-color:rgba(0,0,0,0.75)}
+.manchete-fotojornal-widget .m-player .m-nav-next-trigger:hover .m-button{background-color:rgba(0,0,0,0.75)}
+/**/
+
+
+/* LANDSCAPE MODE */
+.m-landscape .m-titles li{padding:8px 10px;}
+.m-landscape .m-nav-titles{clear:none; margin-left:0px;}
+
+/* PORTRAIT MODE */
+.m-portrait .m-nav-titles{clear:both; margin-left:-70px;}
+.m-portrait .m-titles li{padding:0px 8px; margin:0px 38px 0px 0px;}
+.m-portrait .m-nav-titles .m-nav-prev{position:absolute; z-index:2; right:5px; top:5px;}
+.m-portrait .m-nav-titles .m-nav-next{position:absolute; z-index:2; right:5px; bottom:5px;}
+.m-portrait .m-nav-titles .m-prev{margin:0px;}
+.m-portrait .m-nav-titles .m-next{margin:0px;}
